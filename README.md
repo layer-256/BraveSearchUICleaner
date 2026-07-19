@@ -1,4 +1,4 @@
-# Brave search UI Cleaner Extension
+# Cleaner UI Extension for [Brave search](https://search.brave.com/search?q=kittens)
 
 ![Pure CSS](https://img.shields.io/badge/pure%20css-4285F4?style=for-the-badge&logo=css)
 ![Platform](https://img.shields.io/badge/chromium%20support-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
