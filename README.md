@@ -9,15 +9,15 @@
 
 <!-- This is a mini extension written only in CSS for [Brave Search](https://search.brave.com/search?q=kittens).
 This extension removes not needed stuff from brave search, for example: settings, all tabs except for all and pictures, footer, ai result and bits of not needed info in search results. Also it centers everything out  -->
-* **Decluttered Interface**
+* **Decluttered Interface**</br>
 Removes settings, footers, and redundant UI elements
-* **Focused Navigation**
+* **Focused Navigation**</br>
 Keeps only the essential tabs (All and Images)
-* **AI Free Search**
+* **AI Free Search**</br>
 Removes the AI summary
-* **Perfect Center**
+* **Perfect Center**</br>
 Completely centers everything out for a cleaner look
-* **Lightweight**
+* **Lightweight**</br>
 Written entirely in CSS
 ## Showcase (Before/After)
 
