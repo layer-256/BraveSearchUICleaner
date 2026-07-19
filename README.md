@@ -1,6 +1,7 @@
 # Brave search UI Cleaner Extension
 
 ![Pure CSS](https://img.shields.io/badge/pure%20css-4285F4?style=for-the-badge&logo=css)
+![Platform](https://img.shields.io/badge/chromium%20support-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
 ![Product](https://img.shields.io/badge/made%20for%20brave-ff4400?style=for-the-badge&logo=brave&logoColor=white)
 ![Licenced](https://img.shields.io/badge/Licenced-red?style=for-the-badge&logo=creativecommons&logoColor=white)
 
