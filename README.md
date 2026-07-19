@@ -61,7 +61,7 @@ Written entirely in CSS
 
 ### Step 2: Enable Developer Mode in your browser
 1. Open any Chromium-based browser (Chrome, Edge, Brave, Opera, etc.)
-2. Navigate to the Extensions page by going to [chrome://extensions/](chrome://extensions/)
+2. Navigate to the Extensions page
 3. In the top-right corner, turn ON the "Developer mode" toggle
 
 ### Step 3: Load the extension
@@ -80,9 +80,9 @@ If you don't want to enable Developer Mode, you can use a custom style manager:
 3. Copy and paste the contents of `changes.css` and `removes.css` files from `./css` directory of this repository
 
 ## How to update
-If there will be a newer version of this extension:
+When there will be a newer version of this extension:
 1. Download and unzip the repository
-2. Go to [chrome://extensions/](chrome://extensions/) and delete the old version
+2. Navigate to the Extensions page and delete the old version
 3. Click the "Load unpacked" button that appears in the top left corner
 4. Select the unzipped repository folder
 
