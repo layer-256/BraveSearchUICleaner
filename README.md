@@ -1,6 +1,6 @@
+# Brave search UI Cleaner Extension
 
 ![Pure CSS](https://img.shields.io/badge/pure%20css-4285F4?style=for-the-badge&logo=css)
-![Platform](https://img.shields.io/badge/chromium%20support-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
 ![Product](https://img.shields.io/badge/made%20for%20brave-ff4400?style=for-the-badge&logo=brave&logoColor=white)
 ![Licenced](https://img.shields.io/badge/Licenced-red?style=for-the-badge&logo=creativecommons&logoColor=white)
 
@@ -18,52 +18,57 @@ Removes the AI summary
 Completely centers everything out for a cleaner look
 * **Lightweight**
 Written entirely in CSS
-## Showcase
+## Showcase (Before/After)
 
-#### Before/After:
+### All category
+<table>
+<tr>
+<td width="50%"><img src="/showcaseImages/BeforeAll.png" width="100%"/></td>
+<td width="50%"><img src="/showcaseImages/AfterAll.png" width="100%"/></td>
+</tr>
+</table>
 
-<div style="display: flex; flex-direction: column; gap: 30px;">
-    <div style="display: flex; gap: 5px;">
-        <img src="/showcaseImages/BeforeAll.png"/>
-        <br/>
-        <img src="/showcaseImages/AfterAll.png"/>
-    </div>
-    <div style="display: flex; gap: 5px;">
-        <img src="/showcaseImages/BeforeFooter.png"/>
-        <br/>
-        <img src="/showcaseImages/AfterFooter.png"/>
-    </div>
-    <div style="display: flex; gap: 5px;">
-        <img src="/showcaseImages/BeforePics.png"/>
-        <br/>
-        <img src="/showcaseImages/AfterPics.png"/>
-    </div>
-    <div style="display: flex; gap: 5px;">
-        <img src="/showcaseImages/BeforePicsDetails.png"/>
-        <br/>
-        <img src="/showcaseImages/AfterPicsDetails.png"/>
-    </div>
-</div>
-<br/>
-<br/>
+### Footer
+<table>
+<tr>
+<td width="50%"><img src="/showcaseImages/BeforeFooter.png" width="100%"/></td>
+<td width="50%"><img src="/showcaseImages/AfterFooter.png" width="100%"/></td>
+</tr>
+</table>
+
+### Pictures
+<table>
+<tr>
+<td width="50%"><img src="/showcaseImages/BeforePics.png" width="100%"/></td>
+<td width="50%"><img src="/showcaseImages/AfterPics.png" width="100%"/></td>
+</tr>
+</table>
+
+### Pictures details
+<table>
+<tr>
+<td width="50%"><img src="/showcaseImages/BeforePicsDetails.png" width="100%"/></td>
+<td width="50%"><img src="/showcaseImages/AfterPicsDetails.png" width="100%"/></td>
+</tr>
+</table>
 
 ## How to setup
 
-#### Step 1: Prepare the files
+### Step 1: Prepare the files
 1. Download the repository as a ZIP archive.
 2. Unzip the downloaded folder to any convenient location on your computer
 
-#### Step 2: Enable Developer Mode in your browser
+### Step 2: Enable Developer Mode in your browser
 1. Open any Chromium-based browser (Chrome, Edge, Brave, Opera, etc.)
 2. Navigate to the Extensions page by going to [chrome://extensions/](chrome://extensions/)
 3. In the top-right corner, turn ON the "Developer mode" toggle
 
-#### Step 3: Load the extension
+### Step 3: Load the extension
 1. Click the "Load unpacked" button that appears in the top left corner
 2. Select the unzipped repository folder
 3. Open the [Brave Search](https://search.brave.com/search?q=kittens) and check out the results
 
-#### Step 4...
+### Step 4...
 Enjoy :)
 
 ## OR How to setup via Stylus
