@@ -1,0 +1,42 @@
+/* sidebar in search results */
+div[class="cols svelte-1f8i7g0"] > aside[class="sidebar svelte-1f8i7g0"],
+/* ask ai button in search input */
+#submit-llm-button,
+/* footer lol */
+footer,
+/* settings buttons on right of the header */
+#site-header > div > div:nth-of-type(2),
+/* tabs ask ai, news, vdeos, maps and googles from search results categories */
+#primary-tabs > li:nth-of-type(1),
+#primary-tabs > li:nth-of-type(4),
+#primary-tabs > li:nth-of-type(5),
+#primary-tabs > li:nth-of-type(6),
+#primary-tabs > li:nth-of-type(7),
+/* removes Find elsewhere popup in pics results */
+div[class="layout svelte-1qhxjcj type--hybrid spacing-xl force-height object-fit-cover"] > div[class="image-result image-result-search-elsewhere svelte-1qhxjcj padded"],
+/* hint to search somewhere else inbetween search results */
+#search-elsewhere,
+/* similar results and top answers blocks (under for example reddit search result where around 7 links top to bottom) that just adds more junk to visual and i never really use them */
+div[class="snippet  svelte-jmfu5f"] > div[class="similar-pages svelte-1vk6sc4"],
+div[class="snippet  svelte-jmfu5f"] > div[class="inline-qa svelte-s3avi4"],
+/* videos category of search results in row */
+div[class="snippet  svelte-jmfu5f standalone"],
+/* discussions category in ALL tab */
+#discussions,
+/* voice search input on https://search.brave.com/  */
+#voice-input-button,
+/* ai fast answer rom top of the search results */
+#llm-snippet,
+/* logo of brave in header */
+#site-header > div > div:nth-of-type(1) > a ,
+/* secont part of link after domain in every search result */
+cite[class="snippet-url desktop-small-regular t-tertiary svelte-on1hvy"] > span,
+/* images in search results links in all category */
+#results > div > div > div:nth-of-type(2),
+/* removes all text under every picture preview in pics results */
+button[class="image-result svelte-1qhxjcj"] > div:nth-of-type(2),
+button[class="image-result svelte-1qhxjcj selected"] > div:nth-of-type(2),
+/* deep links in search result */
+div[class="snippet  svelte-jmfu5f"] > div[class="deep-links svelte-3l1gt9 mounted"] {
+    display: none !important;
+}

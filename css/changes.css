@@ -1,0 +1,66 @@
+#search-page > div {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#search-page > * {
+  margin: 0 !important;
+}
+
+div[class="cols svelte-1f8i7g0"],
+div[class="column-layout noscrollbar svelte-1f8i7g0"] {
+  display: block !important;
+}
+
+#nav-tabs,
+#site-header,
+#search-page > div {
+  padding-left: 25vw !important;
+  padding-right: 25vw !important;
+}
+
+#results {
+  padding: 0 !important;
+  /* compensates lost margin due to removing ai snippet */
+  margin-top: 24px !important;
+}
+
+/* centers out nav with tabs for categories */
+#nav-tabs > div > nav{
+  justify-content: space-between !important;
+  margin-left: 0 !important;
+  min-width: 100% !important;
+}
+
+/* removes unnecessary padding for tabs in search results */
+#primary-tabs > li > a  {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+#primary-tabs {
+  padding: 0 !important;
+}
+
+#primary-tabs > li {
+  display: flex !important;
+  align-items: center !important;
+}
+
+#search-page > div {
+  min-width: 100% !important;
+}
+
+/* removes padding from search input because now logo is removed */
+#site-header > div > div:nth-of-type(1) > div {
+  padding: 0 !important;
+}
+
+/* centers out search input */
+div[data-testid="searchform-container"] {
+  min-width: 100% !important;
+}
+
+#secondary-tabs {
+    margin: 0 !important;
+}

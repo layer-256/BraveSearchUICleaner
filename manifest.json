@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+    }
+  },
+  "name": "Brave search UI cleaner",
+  "description": "A lightweight, CSS only extension that cleans up the Brave Search UI. Removes the AI summary, footers, non useful tabs and settings. Centers out all ui and makes your surfing feel more minimalistic and distraction free",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://search.brave.com/*"],
+      "css": ["./css/removes.css", "./css/changes.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
